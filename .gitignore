@@ -1,0 +1,15 @@
+# Frontend (Node.js/React)
+node_modules/
+dist/
+build/
+.env
+
+# Backend (Python)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac
+.DS_Store
