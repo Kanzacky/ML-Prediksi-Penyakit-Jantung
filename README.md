@@ -1,17 +1,17 @@
-# Heart Disease Prediction 🫀
+# Heart Disease Prediction
 
 Proyek ini adalah aplikasi *Machine Learning* berbasis web untuk memprediksi risiko penyakit jantung menggunakan model **Random Forest**. Proyek ini ditujukan untuk tugas UAS (Kecerdasan Buatan).
 
 Aplikasi ini mengimplementasikan arsitektur *client-server*, dengan *backend* berbasis **FastAPI** (Python) untuk menyajikan model *machine learning*, dan *frontend* berbasis **React + Vite** (TypeScript) untuk antarmuka pengguna.
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 - `backend/`: Direktori *backend* menggunakan FastAPI. Menangani request API untuk prediksi menggunakan model *machine learning* yang telah dilatih (`model.pkl`).
 - `frontend/`: Direktori *frontend* menggunakan React, Vite, dan TypeScript. Menampilkan *user interface* untuk menginput parameter medis dan melihat hasil prediksi.
 - `notebook/`: Berisi Jupyter Notebook (`data_exploration.ipynb`) yang digunakan untuk eksplorasi data (*EDA*), prapemrosesan, dan pelatihan model.
 - `data/`: Berisi dataset asli `heart.csv` yang digunakan sebagai data latih model.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 ### Frontend
 <div align="left">
@@ -37,7 +37,7 @@ Aplikasi ini mengimplementasikan arsitektur *client-server*, dengan *backend* be
 
 > **Model Spesifik**: Random Forest Classifier
 
-## 🚀 Cara Menjalankan Proyek Secara Lokal
+## Cara Menjalankan Proyek Secara Lokal
 
 ### 1. Menjalankan Backend
 
@@ -76,11 +76,11 @@ npm run dev
 ```
 Aplikasi *frontend* akan berjalan dan bisa diakses lewat browser, umumnya di URL `http://localhost:5173`.
 
-## 💡 Fitur Utama
+## Fitur Utama
 
 - **Prediksi Akurat**: Menggunakan model algoritma *Random Forest* untuk mengklasifikasi risiko penyakit jantung.
 - **Formulir Interaktif**: Menerima 11 parameter profil kesehatan seperti Usia, Jenis Kelamin, Jenis Nyeri Dada (Chest Pain Type), Tekanan Darah (Resting BP), Kolesterol, Gula Darah Puasa (Fasting BS), dll.
 - **Saran Klinis (Clinical Notes)**: Selain hasil positif/negatif, sistem juga memberikan rekomendasi gaya hidup atau peringatan dini jika ada input spesifik yang melampaui batas normal (seperti tekanan darah tinggi atau gula darah di atas normal).
 
-## 📝 Catatan Tambahan
+## Catatan Tambahan
 Pastikan file model prediksi `model.pkl` sudah berada di dalam folder `backend/model/`. Model ini dibutuhkan oleh FastAPI saat dijalankan agar *endpoint* `/predict` berfungsi dengan baik.
