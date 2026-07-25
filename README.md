@@ -1,6 +1,6 @@
 # Heart Disease Prediction
 
-Proyek ini adalah aplikasi *Machine Learning* berbasis web untuk memprediksi risiko penyakit jantung menggunakan model **Random Forest**. Proyek ini ditujukan untuk tugas UAS (Kecerdasan Buatan).
+Proyek ini adalah aplikasi *Machine Learning* berbasis web untuk memprediksi risiko penyakit jantung menggunakan model **Random Forest**.
 
 Aplikasi ini mengimplementasikan arsitektur *client-server*, dengan *backend* berbasis **FastAPI** (Python) untuk menyajikan model *machine learning*, dan *frontend* berbasis **React + Vite** (TypeScript) untuk antarmuka pengguna.
 
